@@ -1,1 +1,1 @@
-# jercicios_alternativa2
+# ejercicios_alternativa2
