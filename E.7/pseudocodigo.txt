@@ -13,3 +13,5 @@ PROCESO;
     A.-Trayecto
         .-Si el numero de alumnos es menor que 25 el precio del trayecto es de 67.30€ por alumno 
         .-Si el numero de alumnos es mayor que 25 el precio del trayecto es de 61.00€ por alumno
+    B.-Comida
+        .-El precio de la comida es de 3,50 por dia y por alumno
