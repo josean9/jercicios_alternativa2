@@ -9,3 +9,7 @@ def trayecto(alumnos):
         costotrayecto = 61*alumnos
     return costotrayecto
 print("El costo total del trayecto es de: ", trayecto(alumnos), "€")
+
+def comida(alumnos, dias):
+   costocomida = 3.50*alumnos*dias
+print("El costo total de la comida es de: ", comida(alumnos, dias), "€")
