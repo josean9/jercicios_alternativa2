@@ -15,3 +15,7 @@ PROCESO;
         .-Si el numero de alumnos es mayor que 25 el precio del trayecto es de 61.00€ por alumno
     B.-Comida
         .-El precio de la comida es de 3,50 por dia y por alumno
+    C.-Alojamiento
+        .-Si la cantidad de alumnos es menor que 30 el alojamiento es de 4,75€ por dia y por alumno
+        .-Si si la cantidad de alumnos esta entre 31 y 35 el alojamiento es de 4.00€ por dia y por alumno
+        .-Si la cantidad de alumnos es mayor que 35 el alojamiento es de 3.50€ por dia y por alumno
