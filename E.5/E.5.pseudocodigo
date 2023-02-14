@@ -1,0 +1,7 @@
+Solicitar el número de niños en la familia
+Si el número de niños es igual a 2, establecer el descuento en 10%
+Si el número de niños es igual a 3, establecer el descuento en 15%
+Si el número de niños es igual a 4, establecer el descuento en 18%
+Si el número de niños es mayor que 4, establecer el descuento en 18% y añadir 1% adicional por cada niño por encima de 4.
+Calcular el importe del descuento como un porcentaje del precio total.
+Mostrar el importe total del descuento aplicado.

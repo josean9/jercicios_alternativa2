@@ -1,0 +1,34 @@
+ENUMERACIÓN DÍA
+LUNES
+MARTES
+MIÉRCOLES
+JUEVES
+VIERNES
+SÁBADO
+DOMINGO
+FIN ENUMERACIÓN
+
+FUNCIÓN sucesor (díaActual: DÍA): DÍA
+VARIABLES
+    díaSiguiente: DÍA
+
+INICIO
+    SWITCH díaActual
+        CASE LUNES:
+            díaSiguiente = MARTES
+        CASE MARTES:
+            díaSiguiente = MIÉRCOLES
+        CASE MIÉRCOLES:
+            díaSiguiente = JUEVES
+        CASE JUEVES:
+            díaSiguiente = VIERNES
+        CASE VIERNES:
+            díaSiguiente = SÁBADO
+        CASE SÁBADO:
+            díaSiguiente = DOMINGO
+        CASE DOMINGO:
+            díaSiguiente = LUNES
+    FIN SWITCH
+
+    DEVUELVE díaSiguiente
+FIN FUNCIÓN
