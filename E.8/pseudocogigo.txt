@@ -1,0 +1,10 @@
+Algoritmo prima_anual
+#Importe de la prima anual en función del número de accidentes, de la distancia recorrida y de la antigüedad del conductor
+
+entrada
+    accidentes: ENTERO #Número de accidentes
+    distancia: ENTERO #Distancia recorrida
+    antigüedad: ENTERO #Antigüedad del conductor
+
+Resultado: REAL
+
