@@ -1,0 +1,16 @@
+Algoriutmo para calcular la media y evaluación de un alumno
+Entrada: cuatro notas del alumno (nota1, nota2, nota3, nota4)
+
+Variables: media, evaluacion
+
+media = nota1 + nota2 + nota3 + nota 4 / 4
+
+Si media > 15: 
+    evaluacion = "Alumno con talento"
+Si no si media >= 12 y media <= 15:
+    evaluacion = "Con capacidad"
+Si no:
+    evaluacion = "Debe reorientarse" 
+Fin si:
+
+Salida: media, evaluacion
