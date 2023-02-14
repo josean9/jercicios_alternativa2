@@ -1,0 +1,15 @@
+ALGORITMO;
+
+Calcular el coste de un viaje
+
+ENTRADA;
+
+Alumnos --> variable
+Dias -->variable
+
+PROCESO; 
+
+1,-Saber alumnos y dias del viaje
+    A.-Trayecto
+        .-Si el numero de alumnos es menor que 25 el precio del trayecto es de 67.30€ por alumno 
+        .-Si el numero de alumnos es mayor que 25 el precio del trayecto es de 61.00€ por alumno
