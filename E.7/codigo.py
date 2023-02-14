@@ -24,6 +24,6 @@ def hotel(alumnos,dias):
     return costohotel
 print("El costo total del hotel es de: ", hotel(alumnos, dias), "€")
 def costo_total_del_viaje(alumnos, dias):
-    costototal = trayecto(alumnos)+comida(alumnos, dias)+hotel(alumnos, dias)
+    costototal = trayecto(alumnos)+ 3.50*alumnos*dias +hotel(alumnos, dias)
     return costototal
 print("El costo total del viaje es de: ", costo_total_del_viaje(alumnos, dias), "€")
