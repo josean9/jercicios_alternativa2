@@ -8,3 +8,7 @@ entrada
 
 Resultado: REAL
 
+variable
+    prima_antigüedad: REAL 
+    prima_distancia: REAL
+
