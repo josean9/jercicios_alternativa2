@@ -12,3 +12,21 @@ variable
     prima_antigüedad: REAL 
     prima_distancia: REAL
 
+realizacion
+    si
+        accidentes > 3 
+    entonces
+        Resultado <- 0.00
+    si no
+        # Cálculo de la prima en función de la antigüedad
+        si
+            antigüedad < 4
+        entonces
+            prima_antigüedad <- 0.00
+        si no
+            prima_antigüedad <- 200 + REAL(antigüedad - 4) * 20
+        fin si 
+
+postcondicion
+
+fin prima_anual
