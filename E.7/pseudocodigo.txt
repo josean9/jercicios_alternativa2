@@ -1,0 +1,29 @@
+ALGORITMO;
+
+Calcular el coste de un viaje
+
+ENTRADA;
+
+Alumnos --> variable
+Dias -->variable
+
+PROCESO; 
+
+1,-Saber alumnos y dias del viaje
+    A.-Trayecto
+        .-Si el numero de alumnos es menor que 25 el precio del trayecto es de 67.30€ por alumno 
+        .-Si el numero de alumnos es mayor que 25 el precio del trayecto es de 61.00€ por alumno
+    B.-Comida
+        .-El precio de la comida es de 3,50 por dia y por alumno
+    C.-Alojamiento
+        .-Si la cantidad de alumnos es menor que 30 el alojamiento es de 4,75€ por dia y por alumno
+        .-Si si la cantidad de alumnos esta entre 31 y 35 el alojamiento es de 4.00€ por dia y por alumno
+        .-Si la cantidad de alumnos es mayor que 35 el alojamiento es de 3.50€ por dia y por alumno
+    2.-Calcular el coste total del viaje
+    -El coste total del viaje es la suma de los precios del trayecto, la comida y el alojamiento
+
+SALIDA;
+
+El calculo total del viaje segun los alumnos y los dias 
+
+FIN ALGORITMO.

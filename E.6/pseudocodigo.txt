@@ -1,0 +1,23 @@
+ALGORITMO; 
+
+Calcular descuentos en micropropesadores 
+
+ENTRADA;
+
+Numero procesadores --> variable procesadores
+
+PROCESO;
+
+1.- Saber el numero de procesadores 
+    A.- EL numero de procesadores esta entre 10 000 y 20 000 un 10% de descuento
+    B.- EL numero de procesadores esta entre 20 001 y 40 000 un 15% de descuento
+    C.- EL numero de procesadores es mayor de 40 000 un 20% de descuento
+2.- Saber si es abonado a COMMAQ o a BEL
+    A.- Si es abonado a COMMAQ se reduce un 2% el descuento
+    B.- Si es abonado a BEL se aumenta un 1% el descuentos
+
+SALIDA;
+
+El descuento que se le aplica al cliente
+
+FIN ALGORITMO;
