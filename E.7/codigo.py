@@ -13,3 +13,13 @@ print("El costo total del trayecto es de: ", trayecto(alumnos), "€")
 def comida(alumnos, dias):
    costocomida = 3.50*alumnos*dias
 print("El costo total de la comida es de: ", comida(alumnos, dias), "€")
+
+def hotel(alumnos,dias):
+    if alumnos <= 30:
+        costohotel = 4.75*alumnos*dias
+    elif alumnos >= 31 and alumnos <= 35:
+        costohotel = 4*alumnos*dias
+    elif alumnos >= 36:
+        costohotel = 3.50*alumnos*dias
+    return costohotel
+print("El costo total del hotel es de: ", hotel(alumnos, dias), "€")
